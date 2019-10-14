@@ -1,0 +1,85 @@
+
+header
+{
+    margin-top:30px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+h1
+{
+    font-size: 30px;
+    font-family: 'Mansalva', cursive;
+
+}
+
+hr
+{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 5px;
+    
+}
+
+.btn
+{
+    padding: 4px;
+    margin-left: 5px;
+    
+}
+.bag
+{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #dc3545;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #dc3545;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
